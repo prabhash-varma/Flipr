@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NSSR/static/css/main.2961fcb2.css",
-    "main.js": "/NSSR/static/js/main.11be2b4f.js",
-    "index.html": "/NSSR/index.html",
-    "main.2961fcb2.css.map": "/NSSR/static/css/main.2961fcb2.css.map",
-    "main.11be2b4f.js.map": "/NSSR/static/js/main.11be2b4f.js.map"
+    "main.css": "/Flipr/static/css/main.2961fcb2.css",
+    "main.js": "/Flipr/static/js/main.7296859f.js",
+    "index.html": "/Flipr/index.html",
+    "main.2961fcb2.css.map": "/Flipr/static/css/main.2961fcb2.css.map",
+    "main.7296859f.js.map": "/Flipr/static/js/main.7296859f.js.map"
   },
   "entrypoints": [
     "static/css/main.2961fcb2.css",
-    "static/js/main.11be2b4f.js"
+    "static/js/main.7296859f.js"
   ]
 }
