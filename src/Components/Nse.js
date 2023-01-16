@@ -11,7 +11,7 @@ export default function Nse() {
 
 
     useEffect(() => {
-        fetch('http://localhost:9999/stocks/NSE', {
+        fetch('https://nssr.onrender.com/stocks/NSE', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({})

@@ -22,16 +22,16 @@ function App() {
       {/* <Router> */}
       <Routes>
         <Route path='/Flipr' element={<Login />}></Route>
-        <Route path='/home' element={<Home />}></Route>
-        <Route path='/signup' element={<Signup />}></Route>
-        <Route path='/navbar' element={<Navbar />}></Route>
-        <Route path='/nse' element={<Nse />}></Route>
-        <Route path='/bse' element={<Bse />}></Route>
-        <Route path='/reliance' element={<Reliance />}></Route>
-        <Route path='/ashokley' element={<Ashokley />}></Route>
-        <Route path='/cipla' element={<Cipla />}></Route>
-        <Route path='/tatasteel' element={<Tatasteel />}></Route>
-        <Route path='/eichermot' element={<Eichermot />}></Route>
+        <Route path='/Flipr/home' element={<Home />}></Route>
+        <Route path='/Flipr/signup' element={<Signup />}></Route>
+        <Route path='/Flipr/navbar' element={<Navbar />}></Route>
+        <Route path='/Flipr/nse' element={<Nse />}></Route>
+        <Route path='/Flipr/bse' element={<Bse />}></Route>
+        <Route path='/Flipr/reliance' element={<Reliance />}></Route>
+        <Route path='/Flipr/ashokley' element={<Ashokley />}></Route>
+        <Route path='/Flipr/cipla' element={<Cipla />}></Route>
+        <Route path='/Flipr/tatasteel' element={<Tatasteel />}></Route>
+        <Route path='/Flipr/eichermot' element={<Eichermot />}></Route>
       </Routes>
       {/* </Router> */}
     </>

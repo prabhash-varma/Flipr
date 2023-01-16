@@ -12,7 +12,7 @@ class Cipla extends Component {
     }
 
     componentDidMount() {
-        const endpoint = "http://localhost:9999/companies/CIPLA"
+        const endpoint = "https://nssr.onrender.com/companies/CIPLA"
 
         fetch(endpoint)
             .then(response => response.json())

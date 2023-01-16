@@ -12,7 +12,7 @@ class Reliance extends Component {
     }
 
     componentDidMount() {
-        const endpoint = "http://localhost:9999/companies/RELIANCE"
+        const endpoint = "https://nssr.onrender.com/companies/RELIANCE"
 
         fetch(endpoint)
             .then(response => response.json())

@@ -11,7 +11,7 @@ export default function Bse() {
 
 
     useEffect(() => {
-        fetch('http://localhost:9999/stocks/BSE', {
+        fetch('https://nssr.onrender.com/stocks/BSE', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({})

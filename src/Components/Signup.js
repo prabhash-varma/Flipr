@@ -13,7 +13,7 @@ const Signup = () => {
 
 
     const submitHandler = async () => {
-        fetch('http://localhost:9999/signupapi', {
+        fetch('https://nssr.onrender.com/signupapi', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -30,7 +30,7 @@ const Signup = () => {
                     alert('user already exists')
                 }
                 else {
-                    navigate('/navbar')
+                    navigate('/Flipr/navbar')
                 }
             })
     }
@@ -78,7 +78,7 @@ const Signup = () => {
                                                     <button className="btn btn-dark btn-lg btn-block" type="button" style={{ marginLeft: '40%', padding: '10px 20px' }} onClick={submitHandler}>Login</button>
                                                 </div>
 
-                                                <p className="mb-5 pb-lg-2" style={{ color: '#393f81', marginLeft: '25%' }}>Already have an account? <Link to="/"
+                                                <p className="mb-5 pb-lg-2" style={{ color: '#393f81', marginLeft: '25%' }}>Already have an account? <Link to="/Flipr"
                                                     style={{ color: '#393f81' }}>Login here</Link></p>
                                             </form>
 

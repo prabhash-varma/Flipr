@@ -12,7 +12,7 @@ class Eichermot extends Component {
     }
 
     componentDidMount() {
-        const endpoint = "http://localhost:9999/companies/EICHERMOT"
+        const endpoint = "https://nssr.onrender.com/companies/EICHERMOT"
 
         fetch(endpoint)
             .then(response => response.json())

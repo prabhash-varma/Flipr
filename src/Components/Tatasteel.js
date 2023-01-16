@@ -12,7 +12,7 @@ class Tatasteel extends Component {
     }
 
     componentDidMount() {
-        const endpoint = "http://localhost:9999/companies/TATASTEEL"
+        const endpoint = "https://nssr.onrender.com/companies/TATASTEEL"
 
         fetch(endpoint)
             .then(response => response.json())

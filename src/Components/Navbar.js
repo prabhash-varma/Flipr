@@ -35,7 +35,7 @@ export default function Navbar({ getName }) {
         <>
             <div className='navbar'>
                 <div className='navbar-container'>
-                    <Link to="/home" className='navbar-logo' onClick={closeMobile}>
+                    <Link to="/Flipr/home" className='navbar-logo' onClick={closeMobile}>
                         NSSR<i className='fab fa-typo3' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -43,7 +43,7 @@ export default function Navbar({ getName }) {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/Flipr" className='nav-links' onClick={closeMobileMenu}>
                                 Logout<i className="fa-solid fa-arrow-right-to-bracket" style={{ marginLeft: '10px' }} />
                             </Link>
                         </li>
@@ -54,8 +54,8 @@ export default function Navbar({ getName }) {
                                 <Dropdown.Toggle split id="dropdown-split-basic" />
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="/nse">NSE</Dropdown.Item>
-                                    <Dropdown.Item href="/bse">BSE</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/nse">NSE</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/bse">BSE</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </li>
@@ -66,11 +66,11 @@ export default function Navbar({ getName }) {
                                 <Dropdown.Toggle split id="dropdown-split-basic" />
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="/reliance">Reliance</Dropdown.Item>
-                                    <Dropdown.Item href="/ashokley">Ashok Leyland</Dropdown.Item>
-                                    <Dropdown.Item href="/cipla">Cipla</Dropdown.Item>
-                                    <Dropdown.Item href="/tatasteel">Tata Steel</Dropdown.Item>
-                                    <Dropdown.Item href="/eichermot">Eicher Motors</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/reliance">Reliance</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/ashokley">Ashok Leyland</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/cipla">Cipla</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/tatasteel">Tata Steel</Dropdown.Item>
+                                    <Dropdown.Item href="/Flipr/eichermot">Eicher Motors</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </li>

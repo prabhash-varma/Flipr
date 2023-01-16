@@ -12,7 +12,7 @@ class Ashokley extends Component {
     }
 
     componentDidMount() {
-        const endpoint = "http://localhost:9999/companies/ASHOKLEY"
+        const endpoint = "https://nssr.onrender.com/companies/ASHOKLEY"
 
         fetch(endpoint)
             .then(response => response.json())

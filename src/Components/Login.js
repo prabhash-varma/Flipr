@@ -8,7 +8,7 @@ const Login = () => {
     const navigate = useNavigate()
 
     const submitHandler = async () => {
-        const response = await fetch("http://localhost:9999/loginapi", {
+        const response = await fetch("https://nssr.onrender.com/loginapi", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -18,11 +18,11 @@ const Login = () => {
         })
         const json = await response.json()
         if (json.isLogged) {
-            navigate('/home')
+            navigate('/Flipr/home')
         }
         else {
             alert('INVALID CREDENTIALS')
-            navigate('/')
+            navigate('/Flipr')
         }
 
         if (json.msg === "Invalid Credentials") {
@@ -64,7 +64,7 @@ const Login = () => {
                                                     <button className="btn btn-dark btn-lg btn-block" type="button" style={{ marginLeft: '40%', padding: '10px 20px' }} onClick={submitHandler}>Login</button>
                                                 </div>
 
-                                                <p className="mb-5 pb-lg-2" style={{ color: '#393f81', marginLeft: '25%' }}>Don't have an account? <a href="signup"
+                                                <p className="mb-5 pb-lg-2" style={{ color: '#393f81', marginLeft: '25%' }}>Don't have an account? <a href="/Flipr/signup"
                                                     style={{ color: '#393f81' }}>Register here</a></p>
                                             </form>
 
