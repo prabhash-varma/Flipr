@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Flipr/static/css/main.2961fcb2.css",
-    "main.js": "/Flipr/static/js/main.5e50e519.js",
+    "main.js": "/Flipr/static/js/main.da5de2b0.js",
+    "static/media/loginimg.jpg": "/Flipr/static/media/loginimg.c45023ee30475f9763fd.jpg",
     "index.html": "/Flipr/index.html",
     "main.2961fcb2.css.map": "/Flipr/static/css/main.2961fcb2.css.map",
-    "main.5e50e519.js.map": "/Flipr/static/js/main.5e50e519.js.map"
+    "main.da5de2b0.js.map": "/Flipr/static/js/main.da5de2b0.js.map"
   },
   "entrypoints": [
     "static/css/main.2961fcb2.css",
-    "static/js/main.5e50e519.js"
+    "static/js/main.da5de2b0.js"
   ]
 }
