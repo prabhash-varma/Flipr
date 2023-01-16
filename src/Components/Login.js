@@ -38,8 +38,8 @@ const Login = () => {
                             <div className="card" style={{ borderRadius: '1rem' }}>
                                 <div className="row g-0">
                                     <div className="col-md-6 col-lg-5 d-none d-md-block">
-                                        <img src="https://www.pvot.in/content/images/size/w300/blogs/markets_Ul3m381.jpg"
-                                            alt="login form" className="img-fluid" style={{ borderRadius: '1rem 0 0 1rem', backgroundSize: "cover", height: "600px", width: "400px" }} />
+                                        {/* <img src="https://www.pvot.in/content/images/size/w300/blogs/markets_Ul3m381.jpg"
+                                            alt="login form" className="img-fluid" style={{ borderRadius: '1rem 0 0 1rem', backgroundSize: "cover", height: "600px", width: "400px" }} /> */}
                                     </div>
                                     <div className="col-md-6 col-lg-7 d-flex align-items-center">
                                         <div className="card-body p-4 p-lg-5 text-black">

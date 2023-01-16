@@ -2,10 +2,13 @@ import React from 'react';
 import Navbar from './Navbar';
 
 const Home = () => {
+
+
+    // backgroundImage: 'url("https://www.quantumamc.com/assets/images/Quantum%20Nifty%20ETF%20Before.jpg")',
     return (
         <>
             <Navbar />
-            <section className="vh-100" style={{ backgroundImage: 'url("https://www.quantumamc.com/assets/images/Quantum%20Nifty%20ETF%20Before.jpg")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+            <section className="vh-100" style={{backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-6 col-sm-6 col-md-6" style={{ marginTop: '20%', marginLeft: '10%' }}>
