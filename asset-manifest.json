@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Flipr/static/css/main.2961fcb2.css",
-    "main.js": "/Flipr/static/js/main.7296859f.js",
+    "main.js": "/Flipr/static/js/main.e9930a38.js",
     "index.html": "/Flipr/index.html",
     "main.2961fcb2.css.map": "/Flipr/static/css/main.2961fcb2.css.map",
-    "main.7296859f.js.map": "/Flipr/static/js/main.7296859f.js.map"
+    "main.e9930a38.js.map": "/Flipr/static/js/main.e9930a38.js.map"
   },
   "entrypoints": [
     "static/css/main.2961fcb2.css",
-    "static/js/main.7296859f.js"
+    "static/js/main.e9930a38.js"
   ]
 }
