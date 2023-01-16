@@ -21,7 +21,7 @@ function App() {
     <>
       {/* <Router> */}
       <Routes>
-        <Route path='/' element={<Login />}></Route>
+        <Route path='/Flipr' element={<Login />}></Route>
         <Route path='/home' element={<Home />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
         <Route path='/navbar' element={<Navbar />}></Route>
